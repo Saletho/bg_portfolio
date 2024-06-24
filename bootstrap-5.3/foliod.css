@@ -1,0 +1,178 @@
+/* générale */
+/* variables */
+:root{
+    --bgColor: #040404;
+    --primaryColor: #165496;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+
+
+
+/* navbar */
+.navbar-brand .logo-img{
+    width: 200px;
+    height: 50px;
+    object-fit: contain;
+    background-color: white;
+    border-radius: 6px;
+}
+.navbar{
+    background-color: var(--bgColor) !important;
+}
+
+.navbar ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar ul li a.active{
+    color: var(--primaryColor) !important;
+}
+.navbar ul li a:hover{
+    color: var(--primaryColor) !important;
+    border: 2px solid var(--primaryColor);
+}
+.navbar ul li.dropdown a{
+    color: white;
+}
+.navbar ul li.dropdown ul li a{
+    color: var(--bgColor);
+}
+
+/* bannière */
+
+.banner{
+    background-color: var(--bgColor);
+}
+.banner .banner-img{
+    background: url(../images/back_profil.png) no-repeat center/contain fixed;
+}
+.banner .banner-overlay{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-overlay h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+/* about */
+section#about .container{
+    background-color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+section#about .trai{
+    height: 2px;
+    width: 150px;
+    background-color: var(--bgColor);
+    margin-bottom: 30px;
+}
+section#about h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: var(--primaryColor);
+}
+section#about .progress-bar{
+    background-color: var(--primaryColor) !important;
+}
+.underline{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+  .centered-text {
+    text-decoration: underline;
+    text-decoration-color:blue  ;
+    text-decoration-line: underline;
+    }
+        .dynamic-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+        .dynamic-section:hover {
+            background-color: #f0f0f0;
+        }
+        .icon {
+            font-size: 50px;
+            color: #1b0101;
+
+            margin-bottom: 10px;
+            transition: color 0.3s;
+    
+        }
+            
+        .dynamic-section:hover .icon {
+            color: blue;
+             border-radius: 10PX solid rgba(174, 160, 252, 0.8);
+        
+        }
+        .text-content {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        /* banner2 */
+        .banner2  {
+            background-color: var(--bgColor);
+        }
+        .banner2 .banner2-img{
+            background: url(../images/work-6.jpg) no-repeat center/contain fixed;
+        }
+        .banner2 .banner2-overlay{
+            height: 350px;
+            background-color: rgba(51, 16, 253, 0.8);
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner2-overlay h3{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        /* banner3 */
+        .banner3  {
+            background-color: var(--bgColor);
+        }
+        .banner3 .banner3-img{
+            background: url(../images/overlay-bg.jpg) no-repeat center/contain fixed;
+        }
+        .banner3 .banner3-overlay{
+            height: 500px;
+            background-color: rgba(83, 52, 255, 0.8);
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner3-overlay h3{
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
